@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : TALAL AL3JMI ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`TALAL Broadcast`,"http://twitch.tv/INSTA : @9B_T")
+client.user.setGame(`INSTA | @9B_T`,"http://twitch.tv/INSTA : @9B_T")
 client.user.setStatus("dnd")
 });
 
@@ -148,7 +148,7 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__برودكاست بوت | Version 1.1__ 
+            .setDescription(`*INSTA | @9B_T* 
 
             برودكاست عادي : T{prefix}bc
             دعوة البوت لسيرفرك : T{prefix}invite
